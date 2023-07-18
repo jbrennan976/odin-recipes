@@ -11,7 +11,7 @@ h1 {
 }
 
 .homepage {
-    width: 50%;
+    width: 100%;
     color: black;
     font-size: 24px;
     display: inline-flex;
@@ -22,7 +22,7 @@ h1 {
     padding: 5px;
     background-color: rgb(239, 172, 157);
     border: 2px solid black;
-    margin-left: auto;
+    margin: 20px;
 }
 
 img {
