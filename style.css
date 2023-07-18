@@ -27,6 +27,15 @@ h1 {
 
 img {
     height: auto;
-    width: 400px;
+    width: 200px;
 }
 
+#burger {
+    width: 25%;
+    display: inline-block;
+    
+}
+
+.left-align-text{
+    display: block;
+}
