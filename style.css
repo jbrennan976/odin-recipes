@@ -1,6 +1,7 @@
 body {
     background-color: bisque;
-    font-family:'Times New Roman', Times, serif
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -9,9 +10,19 @@ h1 {
     font-size: 36px;
 }
 
-ul {
-    color: white;
+.homepage {
+    width: 50%;
+    color: black;
     font-size: 24px;
+    display: inline-flex;
+    list-style: none;
+}
+
+.homepage li {
+    padding: 5px;
+    background-color: rgb(239, 172, 157);
+    border: 2px solid black;
+    margin-left: auto;
 }
 
 img {
